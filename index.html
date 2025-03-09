@@ -20,6 +20,7 @@
     <div class="logo">
         <img src="logo.jpg" alt="Best Style Nails Lounge">
         </div>
+           <button class="menu-toggle">☰</button>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -31,6 +32,11 @@
             </ul>
         </nav>
     </header>
+<script>
+    document.querySelector(".menu-toggle").addEventListener("click", function() {
+        document.querySelector("nav").classList.toggle("active");
+    });
+</script>
 
     <main>
         <h1>Welcome to Best Style Nails Lounge</h1>
